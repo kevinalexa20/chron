@@ -1,0 +1,44 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "rvp",
+      "request": "launch",
+      "type": "dart"
+    },
+    // {
+    //   "name": "rvp (profile mode)",
+    //   "request": "launch",
+    //   "type": "dart",
+    //   "flutterMode": "profile"
+    // },
+    // {
+    //   "name": "rvp (release mode)",
+    //   "request": "launch",
+    //   "type": "dart",
+    //   "flutterMode": "release"
+    // }
+    {
+      "name": "iphoneSE",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "32985AAE-4A6E-49E4-B3CA-234503356844"
+    },
+    {
+      "name": "iphone15proMax",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "7B36BDF8-9B2C-4E36-9E7E-DE1B3CA61FE1"
+    },
+
+  ],
+  "compounds": [
+    {
+      "name": "All Devices",
+      "configurations": ["iphoneSE", "iphone15proMax"]
+    }
+  ]
+}
